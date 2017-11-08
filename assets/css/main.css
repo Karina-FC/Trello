@@ -1,0 +1,46 @@
+/*Definiendo estilo del encabezado de la Página*/ 
+*{
+	box-sizing: border-box;
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	z-index: 100;
+	background-color: lightblue;
+	height: 35px; /*altura*/
+	width: 100%;
+}
+
+header #logo {
+	cursor: pointer;
+	float: center;
+	height: 60px;
+	margin-left: 550px;
+	margin-top: -20px;
+	width: 70px;
+}
+
+.iconos {
+	float: right;
+}
+
+.fa-bath:hover {
+	cursor:pointer;
+	float: right;
+	height: 15px;
+	width: 10px;
+}
+
+.fondo {
+	z-index: 100;
+	background-color: blue;
+	bottom: 1678px;
+	height: 750px;
+	right: 1286px;
+	top: 1793px;
+	width:100%;
+}
+}
+	
